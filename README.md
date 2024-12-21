@@ -16,10 +16,10 @@ The models are designed to work with datasets consisting of 11 layers per mask, 
 ## Reproducing Results  
 
 - **Trained Model Prediction**:  
-  To reproduce results from the trained U-Net model, use the `TrainedModelUnet1InputPredict.ipynb` file. This notebook demonstrates the performance of the U-Net model with an example dataset and corresponding segmentation output.  
+  To reproduce results from the trained U-Net model, use the `TrainedModelUnet1InputPredict.ipynb` file. This notebook demonstrates the performance of the U-Net model with an example dataset and corresponding segmentation output. The actual model is too large to incluede in the repository, and was instead run from a private computer so the results are visible. 
 
 - **Training and Testing Demo**:  
-  The `ModelTrainTestPredictDemo.ipynb` notebook provides a simplified demonstration of the training, testing, and prediction processes. It uses a small subset of data for efficiency and is configured by default to work with the U-Net model. To test the CNN model instead, simply uncomment the relevant sections in the code.  
+  The `ModelTrainTestPredictDemo.ipynb` notebook provides a simplified demonstration of the training, testing, and prediction processes. It uses just two images of data due to confidentiality and epochs and batch size are reduced to improve training time. The code is configured by default to work with the U-Net model. To test the CNN model instead, simply uncomment the relevant sections in the code.  
 
 ## Authors  
 
